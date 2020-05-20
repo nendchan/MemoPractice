@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BCE09EE2475448E00C1F3FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE09ED2475448E00C1F3FE /* AppDelegate.swift */; };
+		8BCE09F02475448E00C1F3FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE09EF2475448E00C1F3FE /* SceneDelegate.swift */; };
+		8BCE09F22475448E00C1F3FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE09F12475448E00C1F3FE /* ContentView.swift */; };
+		8BCE09F42475449200C1F3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE09F32475449200C1F3FE /* Assets.xcassets */; };
+		8BCE09F72475449200C1F3FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE09F62475449200C1F3FE /* Preview Assets.xcassets */; };
+		8BCE09FA2475449200C1F3FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE09F82475449200C1F3FE /* LaunchScreen.storyboard */; };
+		8BCE0A052475449200C1F3FE /* TONI_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE0A042475449200C1F3FE /* TONI_ProTests.swift */; };
+		8BCE0A102475449200C1F3FE /* TONI_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE0A0F2475449200C1F3FE /* TONI_ProUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BCE0A012475449200C1F3FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BCE09E22475448E00C1F3FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BCE09E92475448E00C1F3FE;
+			remoteInfo = "TONI Pro";
+		};
+		8BCE0A0C2475449200C1F3FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BCE09E22475448E00C1F3FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BCE09E92475448E00C1F3FE;
+			remoteInfo = "TONI Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BCE09EA2475448E00C1F3FE /* TONI Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TONI Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCE09ED2475448E00C1F3FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BCE09EF2475448E00C1F3FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8BCE09F12475448E00C1F3FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BCE09F32475449200C1F3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BCE09F62475449200C1F3FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BCE09F92475449200C1F3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BCE09FB2475449200C1F3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCE0A002475449200C1F3FE /* TONI ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TONI ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCE0A042475449200C1F3FE /* TONI_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TONI_ProTests.swift; sourceTree = "<group>"; };
+		8BCE0A062475449200C1F3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCE0A0B2475449200C1F3FE /* TONI ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TONI ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCE0A0F2475449200C1F3FE /* TONI_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TONI_ProUITests.swift; sourceTree = "<group>"; };
+		8BCE0A112475449200C1F3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BCE09E72475448E00C1F3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCE09FD2475449200C1F3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCE0A082475449200C1F3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BCE09E12475448E00C1F3FE = {
+			isa = PBXGroup;
+			children = (
+				8BCE09EC2475448E00C1F3FE /* TONI Pro */,
+				8BCE0A032475449200C1F3FE /* TONI ProTests */,
+				8BCE0A0E2475449200C1F3FE /* TONI ProUITests */,
+				8BCE09EB2475448E00C1F3FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BCE09EB2475448E00C1F3FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE09EA2475448E00C1F3FE /* TONI Pro.app */,
+				8BCE0A002475449200C1F3FE /* TONI ProTests.xctest */,
+				8BCE0A0B2475449200C1F3FE /* TONI ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BCE09EC2475448E00C1F3FE /* TONI Pro */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE09ED2475448E00C1F3FE /* AppDelegate.swift */,
+				8BCE09EF2475448E00C1F3FE /* SceneDelegate.swift */,
+				8BCE09F12475448E00C1F3FE /* ContentView.swift */,
+				8BCE09F32475449200C1F3FE /* Assets.xcassets */,
+				8BCE09F82475449200C1F3FE /* LaunchScreen.storyboard */,
+				8BCE09FB2475449200C1F3FE /* Info.plist */,
+				8BCE09F52475449200C1F3FE /* Preview Content */,
+			);
+			path = "TONI Pro";
+			sourceTree = "<group>";
+		};
+		8BCE09F52475449200C1F3FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE09F62475449200C1F3FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BCE0A032475449200C1F3FE /* TONI ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE0A042475449200C1F3FE /* TONI_ProTests.swift */,
+				8BCE0A062475449200C1F3FE /* Info.plist */,
+			);
+			path = "TONI ProTests";
+			sourceTree = "<group>";
+		};
+		8BCE0A0E2475449200C1F3FE /* TONI ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE0A0F2475449200C1F3FE /* TONI_ProUITests.swift */,
+				8BCE0A112475449200C1F3FE /* Info.plist */,
+			);
+			path = "TONI ProUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BCE09E92475448E00C1F3FE /* TONI Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCE0A142475449200C1F3FE /* Build configuration list for PBXNativeTarget "TONI Pro" */;
+			buildPhases = (
+				8BCE09E62475448E00C1F3FE /* Sources */,
+				8BCE09E72475448E00C1F3FE /* Frameworks */,
+				8BCE09E82475448E00C1F3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TONI Pro";
+			productName = "TONI Pro";
+			productReference = 8BCE09EA2475448E00C1F3FE /* TONI Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BCE09FF2475449200C1F3FE /* TONI ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCE0A172475449200C1F3FE /* Build configuration list for PBXNativeTarget "TONI ProTests" */;
+			buildPhases = (
+				8BCE09FC2475449200C1F3FE /* Sources */,
+				8BCE09FD2475449200C1F3FE /* Frameworks */,
+				8BCE09FE2475449200C1F3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BCE0A022475449200C1F3FE /* PBXTargetDependency */,
+			);
+			name = "TONI ProTests";
+			productName = "TONI ProTests";
+			productReference = 8BCE0A002475449200C1F3FE /* TONI ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BCE0A0A2475449200C1F3FE /* TONI ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCE0A1A2475449200C1F3FE /* Build configuration list for PBXNativeTarget "TONI ProUITests" */;
+			buildPhases = (
+				8BCE0A072475449200C1F3FE /* Sources */,
+				8BCE0A082475449200C1F3FE /* Frameworks */,
+				8BCE0A092475449200C1F3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BCE0A0D2475449200C1F3FE /* PBXTargetDependency */,
+			);
+			name = "TONI ProUITests";
+			productName = "TONI ProUITests";
+			productReference = 8BCE0A0B2475449200C1F3FE /* TONI ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BCE09E22475448E00C1F3FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "曽谷朱由";
+				TargetAttributes = {
+					8BCE09E92475448E00C1F3FE = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					8BCE09FF2475449200C1F3FE = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 8BCE09E92475448E00C1F3FE;
+					};
+					8BCE0A0A2475449200C1F3FE = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 8BCE09E92475448E00C1F3FE;
+					};
+				};
+			};
+			buildConfigurationList = 8BCE09E52475448E00C1F3FE /* Build configuration list for PBXProject "TONI Pro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BCE09E12475448E00C1F3FE;
+			productRefGroup = 8BCE09EB2475448E00C1F3FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BCE09E92475448E00C1F3FE /* TONI Pro */,
+				8BCE09FF2475449200C1F3FE /* TONI ProTests */,
+				8BCE0A0A2475449200C1F3FE /* TONI ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BCE09E82475448E00C1F3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCE09FA2475449200C1F3FE /* LaunchScreen.storyboard in Resources */,
+				8BCE09F72475449200C1F3FE /* Preview Assets.xcassets in Resources */,
+				8BCE09F42475449200C1F3FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCE09FE2475449200C1F3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCE0A092475449200C1F3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BCE09E62475448E00C1F3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCE09EE2475448E00C1F3FE /* AppDelegate.swift in Sources */,
+				8BCE09F02475448E00C1F3FE /* SceneDelegate.swift in Sources */,
+				8BCE09F22475448E00C1F3FE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCE09FC2475449200C1F3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCE0A052475449200C1F3FE /* TONI_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCE0A072475449200C1F3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCE0A102475449200C1F3FE /* TONI_ProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BCE0A022475449200C1F3FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BCE09E92475448E00C1F3FE /* TONI Pro */;
+			targetProxy = 8BCE0A012475449200C1F3FE /* PBXContainerItemProxy */;
+		};
+		8BCE0A0D2475449200C1F3FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BCE09E92475448E00C1F3FE /* TONI Pro */;
+			targetProxy = 8BCE0A0C2475449200C1F3FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BCE09F82475449200C1F3FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BCE09F92475449200C1F3FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BCE0A122475449200C1F3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BCE0A132475449200C1F3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BCE0A152475449200C1F3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TONI Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = PT735F5Y2W;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TONI Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AyU.TONI-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BCE0A162475449200C1F3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TONI Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = PT735F5Y2W;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TONI Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AyU.TONI-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BCE0A182475449200C1F3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT735F5Y2W;
+				INFOPLIST_FILE = "TONI ProTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AyU.TONI-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TONI Pro.app/TONI Pro";
+			};
+			name = Debug;
+		};
+		8BCE0A192475449200C1F3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT735F5Y2W;
+				INFOPLIST_FILE = "TONI ProTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AyU.TONI-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TONI Pro.app/TONI Pro";
+			};
+			name = Release;
+		};
+		8BCE0A1B2475449200C1F3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT735F5Y2W;
+				INFOPLIST_FILE = "TONI ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AyU.TONI-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TONI Pro";
+			};
+			name = Debug;
+		};
+		8BCE0A1C2475449200C1F3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT735F5Y2W;
+				INFOPLIST_FILE = "TONI ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AyU.TONI-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TONI Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BCE09E52475448E00C1F3FE /* Build configuration list for PBXProject "TONI Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCE0A122475449200C1F3FE /* Debug */,
+				8BCE0A132475449200C1F3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BCE0A142475449200C1F3FE /* Build configuration list for PBXNativeTarget "TONI Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCE0A152475449200C1F3FE /* Debug */,
+				8BCE0A162475449200C1F3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BCE0A172475449200C1F3FE /* Build configuration list for PBXNativeTarget "TONI ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCE0A182475449200C1F3FE /* Debug */,
+				8BCE0A192475449200C1F3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BCE0A1A2475449200C1F3FE /* Build configuration list for PBXNativeTarget "TONI ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCE0A1B2475449200C1F3FE /* Debug */,
+				8BCE0A1C2475449200C1F3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BCE09E22475448E00C1F3FE /* Project object */;
+}
